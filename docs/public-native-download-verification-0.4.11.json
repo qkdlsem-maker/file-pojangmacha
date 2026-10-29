@@ -1,0 +1,46 @@
+{
+  "verifiedAtUtc": "2026-10-29T01:39:14.883459+00:00",
+  "release": "https://github.com/qkdlsem-maker/file-pojangmacha/releases/tag/v0.4.11-beta.1",
+  "releaseId": 427338813,
+  "anonymous": true,
+  "draft": false,
+  "prerelease": true,
+  "installerDigestUnchanged": true,
+  "newAssets": [
+    {
+      "name": "FilePojangmacha-0.4.11-native-drag-demo.mp4",
+      "httpStatus": 200,
+      "bytes": 914186,
+      "sha256": "41ea67dd7aa92c012c71849160100151822614ba43f5f9e6ac5b9c469b12a0ba",
+      "matchesLocal": true,
+      "url": "https://github.com/qkdlsem-maker/file-pojangmacha/releases/download/v0.4.11-beta.1/FilePojangmacha-0.4.11-native-drag-demo.mp4"
+    },
+    {
+      "name": "validation-native-0411.zip",
+      "httpStatus": 200,
+      "bytes": 9645409,
+      "sha256": "8a75b550ba6ac03abbb5fa72a09ec8cde6123ca6b0d898b42d233367d8654b02",
+      "matchesLocal": true,
+      "url": "https://github.com/qkdlsem-maker/file-pojangmacha/releases/download/v0.4.11-beta.1/validation-native-0411.zip"
+    },
+    {
+      "name": "VALIDATION-0.4.11-NATIVE.md",
+      "httpStatus": 200,
+      "bytes": 3915,
+      "sha256": "98520364de514a2f31810cbeb1c7278bc10f3ce531fbe2616e54cae4ba62e24b",
+      "matchesLocal": true,
+      "url": "https://github.com/qkdlsem-maker/file-pojangmacha/releases/download/v0.4.11-beta.1/VALIDATION-0.4.11-NATIVE.md"
+    },
+    {
+      "name": "SHA256SUMS-native-0411.txt",
+      "httpStatus": 200,
+      "bytes": 300,
+      "sha256": "644280a21e2025739c264d837bd3c16468f374b9a38dd1dc98dda1835a3f585b",
+      "matchesLocal": true,
+      "url": "https://github.com/qkdlsem-maker/file-pojangmacha/releases/download/v0.4.11-beta.1/SHA256SUMS-native-0411.txt"
+    }
+  ],
+  "evidenceZipCRC": "passed",
+  "evidenceTextPersonalPathCheck": "passed",
+  "receivedPDFInZipHash": "passed"
+}
