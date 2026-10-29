@@ -6,6 +6,8 @@
 
 [Windows x64 무료 베타 0.4.11 다운로드](https://github.com/qkdlsem-maker/file-pojangmacha/releases/tag/v0.4.11-beta.1) · [English](README.en.md) · [문제 제보](https://github.com/qkdlsem-maker/file-pojangmacha/issues/new/choose)
 
+[한글 소개문](docs/INTRODUCTION-0.4.11.ko.md) · [English introduction](docs/INTRODUCTION-0.4.11.en.md) · [제보 양식 안내](docs/REPORTING.md)
+
 ![붉은 천막과 녹색 조리대, 사진 순서를 확인하는 실제 앱 화면](docs/workspace.png)
 
 ## 한 봉지로 할 수 있는 일

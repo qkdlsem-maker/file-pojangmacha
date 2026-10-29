@@ -6,6 +6,8 @@ A tiny Korean street-food stall for your Windows desktop. Drop in real files, ch
 
 [Download free beta 0.4.11 for Windows x64](https://github.com/qkdlsem-maker/file-pojangmacha/releases/tag/v0.4.11-beta.1) · [한국어](README.md) · [Report a problem](https://github.com/qkdlsem-maker/file-pojangmacha/issues/new/choose)
 
+[English introduction](docs/INTRODUCTION-0.4.11.en.md) · [한글 소개문](docs/INTRODUCTION-0.4.11.ko.md) · [Reporting guide](docs/REPORTING.md)
+
 ![The actual app: red awning, green counter and photo thumbnails](docs/workspace.png)
 
 ## What's on the menu?
