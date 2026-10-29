@@ -1,0 +1,193 @@
+{
+  "utc": "2026-10-28T02:54:45.938Z",
+  "scope": "28 image engine and codec libraries; previously source-built MSVC addon and C++ bridge; prebuilt digest-pinned host compiler tools",
+  "bitForBitReproduction": false,
+  "baseImage": "ghcr.io/libvips/build-win64-mxe@sha256:f81f3174a898129a33b6c73e88e2e2c1261d65304239297764a774d8909ade46",
+  "packages": [
+    {
+      "library": "aom",
+      "version": "3.15.1",
+      "package": "aom",
+      "compiled": true
+    },
+    {
+      "library": "archive",
+      "version": "3.8.9",
+      "package": "libarchive",
+      "compiled": true
+    },
+    {
+      "library": "cairo",
+      "version": "1.18.6",
+      "package": "cairo",
+      "compiled": true
+    },
+    {
+      "library": "cgif",
+      "version": "0.5.4",
+      "package": "cgif",
+      "compiled": true
+    },
+    {
+      "library": "exif",
+      "version": "0.6.26",
+      "package": "libexif",
+      "compiled": true
+    },
+    {
+      "library": "expat",
+      "version": "2.8.5",
+      "package": "expat",
+      "compiled": true
+    },
+    {
+      "library": "ffi",
+      "version": "3.8.0",
+      "package": "libffi",
+      "compiled": true
+    },
+    {
+      "library": "fontconfig",
+      "version": "2.18.3",
+      "package": "fontconfig",
+      "compiled": true
+    },
+    {
+      "library": "freetype",
+      "version": "2.14.3",
+      "package": "freetype",
+      "compiled": true
+    },
+    {
+      "library": "fribidi",
+      "version": "1.0.17",
+      "package": "fribidi",
+      "compiled": true
+    },
+    {
+      "library": "glib",
+      "version": "2.90.0",
+      "package": "glib",
+      "compiled": true
+    },
+    {
+      "library": "harfbuzz",
+      "version": "14.5.0",
+      "package": "harfbuzz",
+      "compiled": true
+    },
+    {
+      "library": "heif",
+      "version": "1.23.5",
+      "package": "libheif",
+      "compiled": true
+    },
+    {
+      "library": "highway",
+      "version": "1.4.0",
+      "package": "highway",
+      "compiled": true
+    },
+    {
+      "library": "imagequant",
+      "version": "2.4.1",
+      "package": "libimagequant",
+      "compiled": true
+    },
+    {
+      "library": "lcms",
+      "version": "2.19.1",
+      "package": "lcms",
+      "compiled": true
+    },
+    {
+      "library": "mozjpeg",
+      "version": "0826579",
+      "package": "mozjpeg",
+      "compiled": true
+    },
+    {
+      "library": "pango",
+      "version": "1.58.2",
+      "package": "pango",
+      "compiled": true
+    },
+    {
+      "library": "pixman",
+      "version": "0.46.4",
+      "package": "pixman",
+      "compiled": true
+    },
+    {
+      "library": "png",
+      "version": "1.6.58",
+      "package": "libpng",
+      "compiled": true
+    },
+    {
+      "library": "proxy-libintl",
+      "version": "0.5",
+      "package": "proxy-libintl",
+      "compiled": true
+    },
+    {
+      "library": "rsvg",
+      "version": "2.63.2",
+      "package": "librsvg",
+      "compiled": true
+    },
+    {
+      "library": "tiff",
+      "version": "4.7.2",
+      "package": "tiff",
+      "compiled": true
+    },
+    {
+      "library": "uhdr",
+      "version": "2.0.2",
+      "package": "uhdr",
+      "compiled": true
+    },
+    {
+      "library": "vips",
+      "version": "8.18.7",
+      "package": "vips-web",
+      "compiled": true
+    },
+    {
+      "library": "webp",
+      "version": "1.6.0",
+      "package": "libwebp",
+      "compiled": true
+    },
+    {
+      "library": "xml2",
+      "version": "2.15.4",
+      "package": "libxml2",
+      "compiled": true
+    },
+    {
+      "library": "zlib-ng",
+      "version": "2.3.3",
+      "package": "zlib-ng",
+      "compiled": true
+    }
+  ],
+  "binaries": [
+    {
+      "name": "libvips-42.dll",
+      "bytes": 19012096,
+      "sha256": "ae86731e5550cb5c37d1d78968b94ba64a8bf912cd9780818db53c05596d74be"
+    },
+    {
+      "name": "libvips-cpp-8.18.7.dll",
+      "bytes": 337920,
+      "sha256": "eb447822b7ffdcd9db95e7e356a4b9bc511a1ee7ad0d0b0cbb710d3a692cc6ed"
+    },
+    {
+      "name": "sharp-win32-x64-0.35.5.node",
+      "bytes": 442368,
+      "sha256": "6067988ea455bdff50fb4864af34d04d5f1a91a9e49df51ec8453ee7277e5649"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+name: "사용 의견 / Feedback"
+description: "어떤 작업에 도움이 됐나요? 무엇이 불편했나요? / What helped, and what got in the way?"
+title: "[Feedback] "
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: "하려던 작업 / Your task"
+      description: "실제 하려던 일과 현재 사용 방식을 알려 주세요. / Describe what you were trying to do."
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: "의견 / Feedback"
+      description: "유용한 부분, 불편한 부분, 바라는 동작 / Useful parts, pain points and desired behavior"
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "공개 제보입니다. 개인정보와 기밀 파일을 올리지 마세요. / This is public. Do not share private or confidential files."

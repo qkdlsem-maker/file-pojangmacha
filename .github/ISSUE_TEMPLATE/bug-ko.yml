@@ -1,0 +1,61 @@
+name: "문제 제보 (한국어)"
+description: "설치, 파일 처리, 드래그, 저장 문제를 알려 주세요."
+title: "[문제] "
+body:
+  - type: markdown
+    attributes:
+      value: "제보는 공개됩니다. 개인정보, 전체 사용자 경로, 원본 업무 문서 대신 민감한 내용을 지운 재현 자료를 사용해 주세요."
+  - type: input
+    id: version
+    attributes:
+      label: 앱 버전
+      placeholder: "0.4.11"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows 버전과 환경
+      placeholder: "Windows 11 x64, 배율 125%, 로컬 NTFS 저장"
+    validations:
+      required: true
+  - type: dropdown
+    id: task
+    attributes:
+      label: 문제가 생긴 작업
+      options:
+        - 설치·실행·종료·제거
+        - 사진 → PDF
+        - PDF 합치기
+        - PDF 추출·나누기
+        - 이미지 크기 변경
+        - 탐색기 드래그 입력·봉지 꺼내기
+        - 늘 먹던 거·최근 포장·기타
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 재현 방법과 입력 파일 정보
+      description: "파일 형식·개수·대략 크기, 설정, 순서대로 누른 동작을 적어 주세요. 실제 파일은 필수가 아닙니다."
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 기대한 결과와 실제 결과
+      description: "오류 문구가 있으면 그대로 적어 주세요. 민감한 이름과 경로는 가려 주세요."
+    validations:
+      required: true
+  - type: textarea
+    id: attachment
+    attributes:
+      label: 화면이나 재현용 자료 (선택)
+      description: "개인정보를 지운 화면·작은 테스트 파일만 첨부해 주세요."
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 공개 범위 확인
+      options:
+        - label: "개인정보·비밀번호·기밀 문서를 포함하지 않았습니다."
+          required: true

@@ -1,0 +1,61 @@
+name: "Bug report (English)"
+description: "Report installation, conversion, drag-and-drop or saving problems."
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Reports are public. Remove personal data, full user paths and confidential documents. A small synthetic example is preferable; attachments are optional."
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      placeholder: "0.4.11"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version and environment
+      placeholder: "Windows 11 x64, 125% scaling, local NTFS output"
+    validations:
+      required: true
+  - type: dropdown
+    id: task
+    attributes:
+      label: Affected task
+      options:
+        - Install, launch, exit or uninstall
+        - Photos to PDF
+        - Merge PDFs
+        - Extract or split PDF
+        - Batch image resize
+        - Explorer drop or dragging the result bag out
+        - Saved orders, recent results or other
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and input details
+      description: "Include file formats, count, approximate size, selected settings and steps. Original files are not required."
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+      description: "Include the error text, with sensitive names and paths removed."
+    validations:
+      required: true
+  - type: textarea
+    id: attachment
+    attributes:
+      label: Screenshot or small reproducer (optional)
+      description: "Use only sanitized screenshots or non-sensitive test files."
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public report
+      options:
+        - label: "This report contains no personal data, credentials or confidential files."
+          required: true

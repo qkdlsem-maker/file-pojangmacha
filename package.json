@@ -1,0 +1,63 @@
+{
+  "name": "file-pojangmacha",
+  "version": "0.4.11",
+  "description": "파일을 조리하고 포장하는 로컬 Windows 도구",
+  "author": "File Pojangmacha contributors",
+  "license": "MIT",
+  "main": "src/main.cjs",
+  "scripts": {
+    "build": "vite build",
+    "start": "electron .",
+    "test": "node --test test/*.test.cjs",
+    "dist": "pnpm build && electron-builder --win nsis --x64",
+    "pack": "pnpm build && electron-builder --win --dir --x64"
+  },
+  "dependencies": {
+    "pdf-lib": "1.17.1",
+    "sharp": "0.35.5"
+  },
+  "devDependencies": {
+    "electron": "45.0.0",
+    "electron-builder": "26.15.3",
+    "pdfjs-dist": "6.4.299",
+    "vite": "7.3.7"
+  },
+  "build": {
+    "appId": "studio.filepojangmacha.app",
+    "productName": "파일 포장마차",
+    "executableName": "FilePojangmacha",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "src/**",
+      "dist/**",
+      "assets/**",
+      "licenses/**",
+      "package.json",
+      "LICENSE",
+      "THIRD_PARTY_NOTICES.md"
+    ],
+    "asarUnpack": [
+      "node_modules/sharp/**",
+      "node_modules/@img/**"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico",
+      "signExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "artifactName": "FilePojangmacha-${version}-Setup-x64.exe",
+      "deleteAppDataOnUninstall": false,
+      "include": "scripts/installer.nsh"
+    },
+    "npmRebuild": false,
+    "afterPack": "scripts/after-pack.cjs"
+  }
+}
