@@ -1,0 +1,64 @@
+{
+  "versionFilmed": "0.4.11",
+  "date": "2026-10-29",
+  "durationSeconds": 24.0,
+  "recording": "One actual installed-app job. User performed both cross-window drags and opened the received PDF in HanPDF. Cover/reorder/cook used native Windows UI controls.",
+  "jobId": "7636f928-78de-4d29-9da4-1a3cb47f23fa",
+  "separateSessions": false,
+  "speed": 1,
+  "audio": false,
+  "privacy": "Crops and opaque masks exclude personal desktop files, Explorer navigation and the PDF viewer path. No synthesized cursor, action or app content.",
+  "rawSHA256": "8b272fa6675e10f9794e1aac2542460508d201cf23429c76459cd5e8e087463e",
+  "clips": [
+    {
+      "source": "session-desktop.mp4",
+      "start": 22.8,
+      "duration": 2.4,
+      "privacyFilter": "crop=1642:794:250:210,drawbox=x=0:y=593:w=1318:h=201:color=0x28372e:t=fill",
+      "caption": "사진 20장, 포장마차에 넣어 주세요."
+    },
+    {
+      "source": "session-desktop.mp4",
+      "start": 30,
+      "duration": 2.6,
+      "privacyFilter": "crop=1180:840:396:96",
+      "caption": "진짜 파일이 조리대에 펼쳐집니다."
+    },
+    {
+      "source": "session-desktop.mp4",
+      "start": 42.6,
+      "duration": 3.0,
+      "privacyFilter": "crop=1180:840:396:96",
+      "caption": "표지는 이 사진으로."
+    },
+    {
+      "source": "session-desktop.mp4",
+      "start": 54.5,
+      "duration": 3.0,
+      "privacyFilter": "crop=1180:840:396:96",
+      "caption": "순서도 눈으로 확인하고."
+    },
+    {
+      "source": "session-desktop.mp4",
+      "start": 66.8,
+      "duration": 3.2,
+      "privacyFilter": "crop=1180:840:396:96",
+      "caption": "사진 스무 장, PDF 한 봉지 나왔습니다."
+    },
+    {
+      "source": "session-desktop.mp4",
+      "start": 113.4,
+      "duration": 5.8,
+      "privacyFilter": "crop=1644:840:250:94,drawbox=x=0:y=0:w=462:h=116:color=0x28372e:t=fill,drawbox=x=0:y=708:w=462:h=132:color=0x28372e:t=fill",
+      "caption": "봉지를 새 폴더로. 파일 식기 전에 가져가세요."
+    },
+    {
+      "source": "session-desktop.mp4",
+      "start": 122.0,
+      "duration": 4.0,
+      "privacyFilter": "crop=1200:668:321:206",
+      "caption": "꺼낸 PDF를 일반 뷰어로. 20쪽, 순서 그대로."
+    }
+  ],
+  "sha256": "41ea67dd7aa92c012c71849160100151822614ba43f5f9e6ac5b9c469b12a0ba"
+}

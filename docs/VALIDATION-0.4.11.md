@@ -31,15 +31,14 @@ Coverage includes Korean/spaced/long filenames, EXIF orientation, transparency, 
 
 ## 실제 드래그 영상 / Native drag video
 
-첨부 영상은 **0.3.1 설치 앱의 실제 촬영본**입니다. 탐색기에서 사진 20장 넣기 → 표지·순서 변경 → PDF 생성 → 봉지를 새 폴더로 끌어내기 → 한PDF에서 열기를 확인했습니다. 같은 작업의 24.4초 영상이며, 직접 드래그한 사용자 입력을 포함합니다. 저장본과 받은 PDF의 해시는 같고 원본 사진 20장의 해시도 유지됐습니다. [당시 검증 기록](VALIDATION-0.3.1-NATIVE.txt).
+**0.4.11 설치 앱에서 다시 검증하고 24초 영상으로 촬영했습니다.** 탐색기 사진 20장 입력 → 표지·순서 변경 → PDF 생성 → 새 빈 폴더로 봉지 끌어내기 → 한PDF 열기입니다. 받은 PDF는 저장본과 SHA-256이 같고, 20쪽 모두 지정한 순서이며 원본 20장의 해시도 유지됐습니다. [상세 기록](VALIDATION-0.4.11-NATIVE.md).
 
-The attached 24.4-second video is a real recording of **installed version 0.3.1**, including human Explorer drop-in and bag drag-out, followed by opening the result in HanPDF. Source and received PDFs matched by hash; all 20 original images were unchanged. It is not presented as a new 0.4.11 cross-window drag recording.
+**Newly verified and filmed in installed 0.4.11.** Human Explorer drop-in and bag drag-out, actual PDF processing and opening the received file in HanPDF. Saved/received hashes, all 20 page positions and unchanged originals were verified. The new video is 24.0 seconds from one job. The old 0.3.1 video remains as historical evidence.
 
 ## 남은 한계 / Remaining limits
 
 - 별도 물리 PC에서 설치·실행을 검증하지 않았습니다. / No second physical PC validation.
 - Windows 10, ARM64, 다양한 배율, FAT/exFAT·네트워크 저장소는 미검증입니다. / Those platforms and storage/display configurations remain unverified.
-- 0.4.11에서는 창 사이 드래그와 일반 뷰어 열기를 다시 촬영하지 않았습니다. / Native drags and an external viewer were not filmed again in 0.4.11.
 - 코드 서명·자동 업데이트가 없습니다. / No code signing or auto-updates.
 - 이미지 라이브러리 재빌드와 Electron/Chromium 전체 재빌드는 다릅니다. 후자는 수행하지 않았습니다. / Electron/Chromium and compiler tools were not built from source.
 - 기술 검증은 이용자의 반복 사용 가치나 시장 반응을 입증하지 않습니다. / Technical validation does not establish retention or demand.

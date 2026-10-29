@@ -30,9 +30,11 @@ The stall folds down when idle. Move, minimize or close it easily. Quick mode re
 
 ## Watch the actual workflow
 
-[Download/play the 24-second demo](https://github.com/qkdlsem-maker/file-pojangmacha/releases/download/v0.4.11-beta.1/FilePojangmacha-0.3.1-native-drag-demo.mp4)
+[Download/play the new 24-second 0.4.11 demo](https://github.com/qkdlsem-maker/file-pojangmacha/releases/download/v0.4.11-beta.1/FilePojangmacha-0.4.11-native-drag-demo.mp4)
 
-**Recorded in installed version 0.3.1.** Explorer drop → cover/order changes → PDF → drag the bag into a new folder → open in a PDF viewer. A person performed the cross-window drags; Windows automation operated the intermediate buttons. Waiting and private desktop areas were removed. Version 0.4.11 preserves this design and functionality; this video is not presented as a newly filmed 0.4.11 validation.
+[![The installed 0.4.11 bag dragged into a new Explorer folder](docs/native-0411-poster.jpg)](https://github.com/qkdlsem-maker/file-pojangmacha/releases/download/v0.4.11-beta.1/FilePojangmacha-0.4.11-native-drag-demo.mp4)
+
+**Newly recorded in installed version 0.4.11.** Explorer drop of 20 photos → cover/order changes → PDF creation → bag dragged into a new empty folder → opening in a PDF viewer. A human performed both cross-window drags and opened the PDF; Windows UI automation operated the intermediate buttons. All clips are from one job at original speed, with waiting removed and private desktop areas masked. The received PDF matched the saved output by hash; all 20 page positions and all 20 unchanged original images were verified. [Native workflow evidence](docs/VALIDATION-0.4.11-NATIVE.md).
 
 ## Privacy and originals
 

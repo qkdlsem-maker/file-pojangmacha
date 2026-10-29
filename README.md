@@ -32,9 +32,11 @@
 
 ## 실제 시연
 
-[24초 영상 다운로드/재생](https://github.com/qkdlsem-maker/file-pojangmacha/releases/download/v0.4.11-beta.1/FilePojangmacha-0.3.1-native-drag-demo.mp4)
+[24초 0.4.11 영상 다운로드/재생](https://github.com/qkdlsem-maker/file-pojangmacha/releases/download/v0.4.11-beta.1/FilePojangmacha-0.4.11-native-drag-demo.mp4)
 
-**영상은 0.3.1 설치 앱을 실제로 촬영했습니다.** 탐색기 사진 입력 → 표지·순서 변경 → PDF 생성 → 봉지를 새 폴더로 끌기 → PDF 뷰어 열기를 담았습니다. 창 사이 드래그는 사람이 직접 수행했고, 중간 버튼은 Windows 조작 도구를 사용했습니다. 대기와 개인 화면을 잘랐습니다. 0.4.11은 같은 디자인·기능의 새 버전 빌드이며, 이 영상을 새 버전의 재촬영 증거로 표시하지 않습니다.
+[![0.4.11 봉지를 새 탐색기 폴더로 꺼낸 실제 화면](docs/native-0411-poster.jpg)](https://github.com/qkdlsem-maker/file-pojangmacha/releases/download/v0.4.11-beta.1/FilePojangmacha-0.4.11-native-drag-demo.mp4)
+
+**설치된 0.4.11을 새로 촬영했습니다.** 탐색기 사진 20장 입력 → 표지·순서 변경 → PDF 생성 → 봉지를 새 빈 폴더로 끌기 → 일반 PDF 뷰어에서 열기를 담았습니다. 창 사이 드래그와 PDF 열기는 사람이 직접 수행했고, 중간 버튼은 Windows UI 도구로 조작했습니다. 같은 작업에서 대기를 잘랐고 개인 화면을 가렸습니다. 받은 PDF와 저장본의 해시, 전체 20쪽 순서, 원본 20장 보존을 확인했습니다. [실제 드래그 검증 기록](docs/VALIDATION-0.4.11-NATIVE.md).
 
 ## 원본과 개인정보
 
