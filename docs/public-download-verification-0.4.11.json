@@ -1,0 +1,102 @@
+{
+  "utc": "2026-10-29T00:38:54.366043+00:00",
+  "url": "https://github.com/qkdlsem-maker/file-pojangmacha/releases/tag/v0.4.11-beta.1",
+  "draft": false,
+  "prerelease": true,
+  "publishedAt": "2026-10-29T00:38:17Z",
+  "method": "Full anonymous HTTPS downloads of all 13 assets; byte length and SHA-256 compared with local release files. No cookies or authorization headers.",
+  "assets": [
+    {
+      "name": "FilePojangmacha-0.1.1-native-source-reference.zip",
+      "status": 200,
+      "bytes": 91549652,
+      "sha256": "477c1b261847d811996a9778e0c478d2082e25f0d6b74104657c160993fa35e4",
+      "matchesLocal": true
+    },
+    {
+      "name": "FilePojangmacha-0.3.1-native-drag-demo.mp4",
+      "status": 200,
+      "bytes": 791981,
+      "sha256": "47c37cfa3f320ceec0c30ebe9d0a2bd2f3dfa29b290ea50b618d747345b0fa05",
+      "matchesLocal": true
+    },
+    {
+      "name": "FilePojangmacha-0.4.11-Setup-x64.exe",
+      "status": 200,
+      "bytes": 122009662,
+      "sha256": "279cc863eac6d07c56f957e42798d2df8edb3ab99267b5700d789ef5dd9afb69",
+      "matchesLocal": true
+    },
+    {
+      "name": "FilePojangmacha-0.4.11-source.zip",
+      "status": 200,
+      "bytes": 1035634,
+      "sha256": "2c8b51a132e1f7d010f024df72c13e04c027836f83b2a7264eb906ef991fe906",
+      "matchesLocal": true
+    },
+    {
+      "name": "FilePojangmacha-native-rebuild-20261028.zip",
+      "status": 200,
+      "bytes": 25670303,
+      "sha256": "9d8bdf2d30510a5f9c2948db312639502489375c531175560e85da759aec0b38",
+      "matchesLocal": true
+    },
+    {
+      "name": "LICENSE",
+      "status": 200,
+      "bytes": 1086,
+      "sha256": "c44632ccf5a40d0ce5510a635ee53400c3242481c7a04d0c249fe3d30ef0f21a",
+      "matchesLocal": true
+    },
+    {
+      "name": "manifest.json",
+      "status": 200,
+      "bytes": 2029,
+      "sha256": "6b513487c08ace358a89005c7b386dd586b25704666d1e01c6a0285e91a8970e",
+      "matchesLocal": true
+    },
+    {
+      "name": "README.en.md",
+      "status": 200,
+      "bytes": 5129,
+      "sha256": "432af36004e2184760b69c600a9edc99972a82be8bd9cf9e7727d4aa2d647bc8",
+      "matchesLocal": true
+    },
+    {
+      "name": "README.md",
+      "status": 200,
+      "bytes": 6167,
+      "sha256": "f5e513675d8fb08ce765a00b55f82159210a2e3a9f658c08c6c9831fdd1aa6f1",
+      "matchesLocal": true
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "status": 200,
+      "bytes": 1049,
+      "sha256": "38e82e17782f962c3e71fcfa572e71eb60ccc88a9a575f4d0f368f7eab0755bd",
+      "matchesLocal": true
+    },
+    {
+      "name": "THIRD_PARTY_NOTICES.md",
+      "status": 200,
+      "bytes": 2221,
+      "sha256": "f95477c0ca9fbb0ec5c5df60cbe7e0a028bd933b83bf2551904c66f71acc78ad",
+      "matchesLocal": true
+    },
+    {
+      "name": "VALIDATION-0.4.11.md",
+      "status": 200,
+      "bytes": 4998,
+      "sha256": "f46d20526b28f96aba260e716afdf13cf45fe2e7d15f30391e146556fc175ce1",
+      "matchesLocal": true
+    },
+    {
+      "name": "validation-evidence-0411.zip",
+      "status": 200,
+      "bytes": 128097,
+      "sha256": "f931e530f9da906c36e8340a3b3a2166d9d2229cb18d7fc6f74de8eda669cece",
+      "matchesLocal": true
+    }
+  ],
+  "allPassed": true
+}
